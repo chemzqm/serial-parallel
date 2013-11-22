@@ -1,0 +1,24 @@
+{
+  "name": "serial-parallel",
+  "version": "0.0.0",
+  "description": "$ npm install     $ node app.js &     $ node request.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chemzqm/serial-parallel.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chemzqm/serial-parallel/issues"
+  },
+  "dependencies": {
+    "node-serial": "0.0.1",
+    "node-parallel": "0.0.5",
+    "superagent": "~0.15.7",
+    "express": "~3.4.4"
+  }
+}
